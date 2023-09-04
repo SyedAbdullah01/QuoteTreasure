@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="box-border" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/761c44b7a7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="input.css" />
+    <script src="script.js"></script>
+    <style>
+      body {
+        background-color: #007dad;
+        background-image: linear-gradient(160deg, #007dad 0%, #72d9cf 100%);
+        font-family: "Ubuntu", sans-serif;
+      }
+      .loader {
+        border: 16px solid #f3f3f3;
+        border-top: 16px solid #333;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 0.8s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        .quote-container {
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="m-0 h-screen bg-gray-700 flex items-center justify-center font-bold text-center"
+  >
+    <div
+      class="quote-container bg-white rounded-lg w-auto max-w-4xl p-5 shadow-md"
+      id="quote-container"
+    >
+      <p class="text-4xl mb-4 font-mono">Quote of the Day!</p>
+      <div class="qoute-text text-xl">
+        <i class="fa-solid fa-quote-left text-4xl"></i>
+        <span id="quote"></span>
+      </div>
+      <div>
+        <span id="author"></span>
+      </div>
+      <div class="button-contaier flex justify-between px-4 mt-3">
+        <button
+          class="twitter-button bg-black text-white hover:text-[#1DA1F2] px-2 py-1 rounded-md shadow-md shadow-slate-500"
+          id="twitter"
+          title="Tweet this quote!"
+        >
+          <i class="fa-brands fa-twitter"></i>
+        </button>
+        <button
+          class="bg-black text-white px-2 py-1 rounded-md shadow-md shadow-slate-500"
+          id="new-quote"
+        >
+          New Quote
+        </button>
+      </div>
+    </div>
+    <div class="loader" id="loader"></div>
+  </body>
+</html>
