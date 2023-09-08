@@ -10,6 +10,7 @@ QuoteTreasure is a web application that fetches and displays inspiring quotes on
 - [Usage](#usage)
 - [API](#api)
 - [Customizing Styling](#customizing-styling)
+- [Technologies Used](#technologies-used)
 
 ## Features
 
@@ -47,3 +48,19 @@ QuoteTreasure uses an external API to fetch quotes. The API used in this project
 You can customize the styling of QuoteTreasure by modifying the HTML classes directly in the `index.html` file. Feel free to experiment with the classes to achieve the look and feel that suits your preferences.
 
 Please note that while you can customize styling this way, it's recommended to follow best practices and consider providing a separate CSS file for production if you want to ensure a polished and efficient design. This can be achieved by writing custom CSS and linking it to the HTML file.
+
+## Technologies Used
+
+QuoteTreasure is built using the following technologies:
+
+- **HTML**: The structure of the web page is defined using HTML.
+
+- **CSS**: Styling and layout are applied using CSS to ensure a pleasant user interface.
+
+- **JavaScript**: Interactivity and functionality, such as fetching quotes and handling user actions, are implemented with JavaScript.
+
+- **External API**: QuoteTreasure fetches quotes from an external API, available [here](https://jacintodesign.github.io/quotes-api/data/quotes.json).
+
+- **GitHub**: The codebase is hosted and shared on GitHub.
+
+These technologies work together to create a dynamic and responsive web application that provides inspiring quotes to users.
