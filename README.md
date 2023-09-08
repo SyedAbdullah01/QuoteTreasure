@@ -55,14 +55,14 @@ QuoteTreasure is built using the following technologies:
 
 - **HTML**: The structure of the web page is defined using HTML.
 
-- **CSS**: Styling and layout are applied using CSS to ensure a pleasant user interface.
+- **Tailwind CSS**: Styling and layout are applied using Tailwind CSS to ensure a pleasant user interface.
 
 - **JavaScript**: Interactivity and functionality, such as fetching quotes and handling user actions, are implemented with JavaScript.
 
 - **External API**: QuoteTreasure fetches quotes from an external API, available [here](https://jacintodesign.github.io/quotes-api/data/quotes.json).
 
-- **Netlify**: The web application is hosted and deployed using Netlify, providing a platform for easy accessibility via the provided link.
-
 - **GitHub**: The codebase is hosted and shared on GitHub.
+
+- **Netlify**: The web application is hosted and deployed using Netlify, providing a platform for easy accessibility via the provided link.
 
 These technologies work together to create a dynamic and responsive web application that provides inspiring quotes to users.
