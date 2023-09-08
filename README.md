@@ -61,6 +61,8 @@ QuoteTreasure is built using the following technologies:
 
 - **External API**: QuoteTreasure fetches quotes from an external API, available [here](https://jacintodesign.github.io/quotes-api/data/quotes.json).
 
+- **Netlify**: The web application is hosted and deployed using Netlify, providing a platform for easy accessibility via the provided link.
+
 - **GitHub**: The codebase is hosted and shared on GitHub.
 
 These technologies work together to create a dynamic and responsive web application that provides inspiring quotes to users.
